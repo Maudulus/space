@@ -7,7 +7,7 @@ $(function(){
 	setInterval(sendAsteroid, randomNumber(500,1000));
 });
 function sendAsteroid() {
-	$('body').append('<img src="survey7_files/asteroid' +  randomNumber(4,1) + '.png" class="asteroid" style="top:1px; right:'+ randomNumber(0,1000) + 'px;"></img>')
+	$('body').append('<img src="Space_files/asteroid' +  randomNumber(4,1) + '.png" class="asteroid" style="top:1px; right:'+ randomNumber(0,1000) + 'px;"></img>')
 	$(".asteroid").throwable({
 		impulse:{
 			f:randomNumber(20,40),
